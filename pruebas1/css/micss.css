@@ -1,0 +1,30 @@
+span{
+    font-style: italic;
+    margin: 21px 0;
+    color: crimson;
+}
+
+body{
+    color: #0381aa;
+}
+
+nav{
+    color: brown;
+}
+
+h1{
+    color: crimson;
+}
+
+article{
+    color: blueviolet;
+}
+
+html{
+    color: black;
+    font-style: inherit;
+}
+
+small{
+    color: black;
+}
