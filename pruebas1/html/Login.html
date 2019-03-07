@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <!placeholder animado!>
+    <! si se quiere aplicar los cambios solo a un label se le puede agregar una clase y asi aplicar solo a esos labels>
+    <style>
+
+        /* reposo */
+        div{
+            /* margen para dar espacio entre los elementos */
+            margin-bottom: 5px;
+            /*le damos un padding-top  del tamaño que ocupa el texto para que nos e superponga el texto y las lineas */
+            padding-top: 8px;
+        }
+
+        /* ajustes tipograficos */
+
+        span,input{
+            font: 16px/16px Verdana;
+            padding: 0;
+        }
+
+        /* sacaremos  el borde y otros elemento que  puedan molestar o verse mal y asi no molesten */
+        label input{
+            display: block;
+            width: 100%;
+            border: none;/*quitamos borde*/
+            background: transparent;/*color de fondo*/
+            outline: none; /*  quitamos la tipica linea que marca donde bamos*/
+
+        }
+
+        label span{
+            color: silver;
+            position: absolute;
+            top:8px;
+            left: 10px;
+            transition: 0.25s;
+        }
+
+        label{
+            display: block;
+            width: 300px;
+            border: 2px solid silver;
+            padding: 8px 10px; /* agregamos padding  para que las cajas se vean  un poco mas grande  y quede mas ordenado*/
+            position: relative;
+            box-sizing: border-box;
+            border-radius: 4px;/* esto agrega unos bordes redondeados */
+            transition: 0.25s;
+        }
+
+        /* focus */
+
+        label.focus{
+            border-color: #0381aa;
+        }
+        label span.focus{
+            color: #0381aa;
+        }
+
+        /* top */
+        /* con estos cambios hacemos que el span quede sobre la linea */
+        label span.top{
+            left:  2px;
+            top: -10px;
+            font-size: 12px;
+            background: white;
+            padding: 0 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+
+        <div>
+            <label>
+                <span>Usuario</span>
+                <input type="text"
+                       autocomplete="off"
+                       name="usuario"/>
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <span>Clave</span>
+                <input type="password"
+                       autocomplete="off"
+                       name="clave"/>
+            </label>
+        </div>
+
+    </form>
+    <script>
+        /*script para las interacciones de subida*/
+        const inputs = document.querySelectorAll(`input`);
+        inputs.forEach(input =>{
+            input.onfocus = ()=>{
+                input.previousElementSibling.classList.add(`top`);
+                input.previousElementSibling.classList.add(`focus`);
+                input.parentNode.classList.add(`focus`);
+            }
+            input.onblur = ()=>{
+                /* sobre escribimos el input con el mismo input pero sin espacios al inico y al final*/
+                input.value=input.value.trim();/* el trim elimina los espacios al inico y al final de un texto */
+                if(input.value.trim().length==0) {
+                    input.previousElementSibling.classList.remove(`top`);
+                }
+                input.previousElementSibling.classList.remove(`focus`);
+                input.parentNode.classList.remove(`focus`);
+            }
+        });
+    </script>
+</body>
+</html>
