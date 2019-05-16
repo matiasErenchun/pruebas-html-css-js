@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cddbee0-1951-4aae-9578-f16a82805bdf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/onibushi.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/html/test1.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -152,12 +153,12 @@
       <workItem from="1551991930140" duration="4547000" />
       <workItem from="1554395387541" duration="817000" />
       <workItem from="1554919405111" duration="1176000" />
-      <workItem from="1558024611200" duration="1586000" />
+      <workItem from="1558024611200" duration="1880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17515000" />
+    <option name="totallyTimeSpent" value="17809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
