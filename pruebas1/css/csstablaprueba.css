@@ -1,0 +1,17 @@
+#dtabla{
+    text-align: center;
+}
+
+.table{
+    margin: 0 auto;
+}
+
+td{
+    border: 1px solid #4e2330;
+    background-color: cadetblue;
+    position: center;
+}
+
+th{
+    background-color: darkslategrey;
+}

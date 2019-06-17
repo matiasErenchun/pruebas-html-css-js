@@ -1,0 +1,43 @@
+/* definimos el tamaño y el color de fondo de la caja capaunica*/
+/* una caja sin alto o ancho llenara todo el espacio de de su contenedor*/
+#capaunica {
+    width: 300px;
+    height: 50px;
+    border-color: red;
+    border-style: double;
+    background-color: #0381aa;
+}
+/*definimos el tamaño y color de la capa comun*/
+
+.capacomun {
+    width: 300px;
+    height: 50px;
+    border-color: black;
+    border-style: groove;
+    background-color: aqua;
+
+}
+
+#click{
+    height: 50px;
+    border-width: 10px;
+    background-color: #4e2330;
+}
+
+#secciones{
+    width: 400px;
+    height: 60px;
+    padding: 10px;
+    background-color: brown;
+
+}
+
+
+#footer{
+    text-align: center;
+    padding: 50px;
+    height: 300px;
+    width:100%;
+    background-color: #e88014;
+}
+
