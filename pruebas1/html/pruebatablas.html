@@ -1,3 +1,8 @@
+<?php
+
+    $conexion=pg_connect("host=Localhost dbname=ciudadesmountandblade user=onibushi password=Oni199233")
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,18 +15,22 @@
     <div id="dtabla">
         <table class="table">
             <tr>
-                <th>columna 1</th><th>columna 2</th><th>columna 3</th>
+                <th>nombre</th><th>precio</th>
             </tr>
-            <tr>
-                <td>celda 1</td>
-                <td>celda 2</td>
-                <td>celda 3</td>
-            </tr>
-            <tr>
-                <td>celda 4</td>
-                <td>celda 5</td>
-                <td>celda 6</td>
-            </tr>
+            <?php
+                $sql="SELECT * FROM productos
+                $resultado=pg_query($conexion,$sql);
+
+                while($mostrar=pg_feth_array($))
+                ?>
+                <tr>
+                    <td><?php echo $mostrar['nombre']?></td>
+                    <td><?php echo $mostrar['precio']></td>
+
+                </tr>
+            <?php
+            }
+            ?>
 
         </table>
 
