@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es"><! lenguaje de la pagina>
+<head>
+    <meta charset="UTF-8">
+    <title>Agregando Js en HTML</title>
+    <! el metodo onload es el que hace que el navegador lea el script solo cuando termine de cargar la pagina>
+    <! si no lo usaramos podria lanzar errores  ya que el span al que se hace referencia no existe aun >
+    <! recuerden el navegador interpreta linea alinea segun por orden decendente  o hacendnete si miramos el numero de linea>
+    <script type ="text/javascript">
+        window.onload = function () {
+
+            document.getElementById('lanzar_alerta').onclick = function () {
+                alert('hola carlos');
+            }
+        }
+    </script>
+</head>
+<body>
+    <section>
+        <span id="lanzar_alerta">Clic aqu&iacute;</span>
+    </section>
+</body>
+</html>
