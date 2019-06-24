@@ -1,0 +1,91 @@
+body{
+  background: #F5F5F5;
+}
+
+img{
+  padding-right:20px;
+}
+
+input.form-control{
+  min-width:370px;
+}
+
+button.btn.btn-default{
+  max-width:50px;
+  padding-right:30px;
+  margin-left:-5px;
+  margin-right: 10px;
+}
+
+div.dropdown{
+  max-width:10px;
+}
+
+form.navbar-form{
+  min-width:100px;
+}
+
+button.btn.btn-default.dropdown-toggle{
+  min-width:107px;
+}
+
+div.form-group{
+  min-width:107px;
+  position:relative;
+}
+
+li{
+  background-color:white;
+}
+
+div.btn-group{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+div.form-group{
+  margin-left:1px;
+}
+
+div.row{
+  max-width:155px;
+}
+
+a2.btn.btn-default, a1.btn.btn-default{
+  min-width:125px;
+}
+
+a3.btn.btn-default{
+  min-width:254px;
+  margin-top: 4px;
+}
+
+a4.btn.btn-default{
+  min-width:254px;
+}
+
+a.imagen{
+  padding-left: 15px;
+}  
+
+b.form-group{
+  padding-left: 15px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 92.7%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr{
+   background-color: #ffffff;
+}
