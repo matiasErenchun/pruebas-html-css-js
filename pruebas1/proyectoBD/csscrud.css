@@ -1,4 +1,87 @@
+html{
+    height: 100%;
+    width: 100%
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+}
 header{
+    padding: 10px;
+    margin-bottom: 10px;
     height: 70px;
-    background-color: #F89043;
+    background-color: green;
+    border-color: #134a10;
+    border-style: solid;
+}
+
+.botonesheader{
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 250px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: brown;
+    background-color: #0381aa;
+    transition-duration: 0.5s;
+}
+
+.botonesheader:hover{
+    background-color: brown;
+    cursor: pointer;/*cursor de la manito*/
+}
+
+
+#botoneracrud{
+    text-align: center;
+    float: left;
+    height: 100%;
+    width: 200px;
+    padding-left: 10px;
+    background-color: cadetblue;
+    border-style: solid;
+    border-color: #0381aa;
+    border-radius: 5px;
+
+}
+
+.botonescrud{
+    display: inline;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 35px;
+    width: 150px;
+    transition-duration: 0.5s;
+    border-style: solid;
+
+}
+
+.botonescrud:hover{
+
+    background-color: brown;
+    cursor: pointer;
+}
+
+#table{
+    height: 100%;
+    width: available;
+    margin:0 auto;
+    margin-left: 10px;
+    float: left;
+}
+
+table{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #0381aa;
+    background-color: brown;
+}
+
+th{
+    border-color: #0381aa;
+    border-style: solid;
+    background-color: beige;
 }
