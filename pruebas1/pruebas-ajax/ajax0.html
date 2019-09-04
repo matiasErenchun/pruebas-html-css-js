@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>AjaX 0</title>
+    <script>
+        var peticionHTTP;
+
+        function crear_conexion_HTTP()
+        {
+
+            if(window.XMLHttpRequest)
+            {
+                peticionHTTP=new XMLHttpRequest();
+
+            }
+            else
+            {
+                peticionHTTP=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+        }
+
+        function descargarArchivo()
+        {
+            crear_conexion_HTTP();
+            realizarPeticion('archivo','Get',funcionActuadora);
+        }
+
+        function realizarPeticion(url, metodo, funcion)
+        {
+            //definir una funcion de como actuar
+            peticionHTTP.onreadystatechange= funcion;
+            //realizar peticion
+            peticionHTTP.open(metodo,url,true);
+            peticionHTTP.send(null);
+        }
+
+        function funcionActuadora ()
+        {
+            alert('actuando')
+            //la funcion actuadora puede tomar muchos estados por ende validamos que para hacer algo primero tome los estados 4 y 200
+            if(peticionHTTP.readyState == 4)
+            {
+                if (peticionHTTP.status == 200)
+                {
+                    document.write(peticionHTTP.responseText)
+                }
+            }
+        }
+
+        //al usar una funcion sin parentesis se esta pasando todoa la funcion como objeto
+        window.onload=descargarArchivo;
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
