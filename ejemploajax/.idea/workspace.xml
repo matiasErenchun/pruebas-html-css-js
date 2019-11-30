@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e21d1f-bf54-4405-ac47-4cdda6ad3e66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pagina-principal/inicio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagina-principal/llenar-tabla.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagina-principal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pagina-principal/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagina-principal/consulta.php" beforeDir="false" afterPath="$PROJECT_DIR$/pagina-principal/consulta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pruebas1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pruebas1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagina-principal/llenar-tabla.js" beforeDir="false" afterPath="$PROJECT_DIR$/pagina-principal/llenar-tabla.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +88,7 @@
       <updated>1575060148449</updated>
       <workItem from="1575060149560" duration="4957000" />
       <workItem from="1575076884436" duration="6488000" />
+      <workItem from="1575087808387" duration="2055000" />
     </task>
     <servers />
   </component>

@@ -10,7 +10,7 @@
         $contador++;
     }
 
-    return json_encode($datos);
+    echo json_encode($datos);
 
 
 ?>

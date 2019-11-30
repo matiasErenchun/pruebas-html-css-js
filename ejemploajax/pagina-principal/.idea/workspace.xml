@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab05b497-3abf-44bd-a67b-58d6a7dcd759" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/ejemploajax.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conexion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consulta1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mostrar-recursos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagina-principal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pruebas1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pruebas1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consulta.php" beforeDir="false" afterPath="$PROJECT_DIR$/consulta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llenar-tabla.js" beforeDir="false" afterPath="$PROJECT_DIR$/llenar-tabla.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575062429206</updated>
       <workItem from="1575062430771" duration="9593000" />
+      <workItem from="1575089403323" duration="570000" />
     </task>
     <servers />
   </component>

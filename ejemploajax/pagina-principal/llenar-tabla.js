@@ -1,5 +1,5 @@
 
-$(document).ready(funcion2);
+$(document).ready(funcion1);
 
 function funcion1()
 {
@@ -8,7 +8,7 @@ function funcion1()
     {
 
         let xhtml=new XMLHttpRequest();
-        xhtml.open('POST','consulta.php', true);
+        xhtml.open('GET','consulta.php',true)
         xhtml.send();
         xhtml.onreadystatechange=function ()
         {
@@ -16,7 +16,11 @@ function funcion1()
             {
                 if (this.status==200)
                 {
-                    console.log(this.responseText);
+                    console.log(xhtml.responseText);
+                    let data = JSON.parse(this.responseText);
+                    for (var i = 0; i <data.length ; i++) {
+                        console.log(data[i].nombre);
+                    }
                 }
             }
         }
