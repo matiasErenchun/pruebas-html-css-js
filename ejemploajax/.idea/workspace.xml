@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="13e21d1f-bf54-4405-ac47-4cdda6ad3e66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/llenar-tabla.js" beforeDir="false" afterPath="$PROJECT_DIR$/pagina-principal/llenar-tabla.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <workItem from="1575060149560" duration="4957000" />
       <workItem from="1575076884436" duration="6488000" />
       <workItem from="1575087808387" duration="2055000" />
-      <workItem from="1575141003765" duration="2362000" />
+      <workItem from="1575141003765" duration="2419000" />
     </task>
     <servers />
   </component>
