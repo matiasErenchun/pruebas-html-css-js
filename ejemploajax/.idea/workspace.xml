@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e21d1f-bf54-4405-ac47-4cdda6ad3e66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ejemploajax.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pagina-principal/conexion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagina-principal/consulta1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagina-principal/mostrar-recursos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagina-principal/pagina-principal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagina-principal/consulta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagina-principal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pagina-principal/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pruebas1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pruebas1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,6 +42,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1UJ1zn8ScJ7VD5m7uX1yGHM9FXx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,6 +54,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/xampp/php/php.ini-development" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -81,11 +87,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575060148449</updated>
-      <workItem from="1575060149560" duration="4605000" />
+      <workItem from="1575060149560" duration="4957000" />
+      <workItem from="1575076884436" duration="941000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="18" key="#CLI_Interpreters" timestamp="1575077393714">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="18" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1575077393714" />
+    <state x="390" y="0" key="#PHP" timestamp="1575077400976">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1575077400976" />
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1575077390913">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575077390913" />
+    <state x="518" y="286" key="NewPhpFileDialog" timestamp="1575077532830">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1575077532830" />
   </component>
 </project>

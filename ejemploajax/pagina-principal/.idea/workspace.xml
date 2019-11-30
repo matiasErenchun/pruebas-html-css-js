@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/../.idea/ejemploajax.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/conexion.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/consulta1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mostrar-recursos.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pagina-principal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../pruebas1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pruebas1/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -32,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/xampp/php/php.ini-development" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575062429206</updated>
-      <workItem from="1575062430771" duration="9040000" />
+      <workItem from="1575062430771" duration="9593000" />
     </task>
     <servers />
   </component>
@@ -78,10 +79,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="0" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1575064093252" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1575064086644">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1575076881205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575064086644" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575076881205" />
     <state x="518" y="286" key="NewPhpFileDialog" timestamp="1575062516438">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
