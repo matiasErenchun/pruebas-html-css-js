@@ -2,15 +2,15 @@
     include "conexion.php";
     $conexion=conectar();
     $resultado=pg_query($conexion,"SELECT * FROM recurso");
-    $resultadoProcesado = array();
+    $datos = array();
     $contador=0;
-    while ($fila=pg_fetch_assoc($resultado))
+    while ($fila=pg_fetch_object($resultado))
     {
-        $resultadoProcesado[$contador]=$fila;
+        $datos[$contador]=$fila;
         $contador++;
     }
 
-    echo json_encode($resultadoProcesado);
+    return json_encode($datos);
 
 
 ?>

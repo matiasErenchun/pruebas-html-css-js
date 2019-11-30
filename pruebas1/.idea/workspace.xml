@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cddbee0-1951-4aae-9578-f16a82805bdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pruebas-ajax/ajax0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pruebas-ajax/ajax1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pruebas-ajax/archivo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pruebas-ajax/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pruebas-ajax/verificarProducto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemploajax/pagina-principal/inicio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejemploajax/pagina-principal/llenar-tabla.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejemploajax/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejemploajax/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
