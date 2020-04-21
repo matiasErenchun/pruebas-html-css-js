@@ -25,13 +25,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="D:\repo-git-local-2\pruebas-html-css-js\ejemploajax\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -43,7 +36,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -61,18 +53,6 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -87,28 +67,17 @@
       <workItem from="1575076884436" duration="6488000" />
       <workItem from="1575087808387" duration="2055000" />
       <workItem from="1575141003765" duration="2419000" />
+      <workItem from="1587512299379" duration="387000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="263" y="18" key="#CLI_Interpreters" timestamp="1575077393714">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1587512678968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="263" y="18" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1575077393714" />
-    <state x="390" y="0" key="#PHP" timestamp="1575077400976">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="390" y="0" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1575077400976" />
-    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1575077390913">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575077390913" />
-    <state x="518" y="286" key="NewPhpFileDialog" timestamp="1575077532830">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1575077532830" />
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587512678968" />
   </component>
 </project>
