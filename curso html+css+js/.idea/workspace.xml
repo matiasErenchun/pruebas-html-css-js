@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cedde98-036a-4615-8d7d-85eddc7c7cd5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/html/Fraces en HTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Listas en HTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/ejercicio componentes texto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/listas de definicion de datos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/listas no ordenadas en HTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/listas ordenadas en HTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/marcadores de fuente en HTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/pre-formato en html.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
@@ -58,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587512686785</updated>
       <workItem from="1587512688084" duration="3527000" />
+      <workItem from="1587852046391" duration="11217000" />
     </task>
     <servers />
   </component>
