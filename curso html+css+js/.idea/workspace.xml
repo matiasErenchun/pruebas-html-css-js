@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cedde98-036a-4615-8d7d-85eddc7c7cd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/Anclas en HTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/Fuentes HTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/Hipervinculos en HTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/sub carpeta/hola.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Imagenes en HTML.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
@@ -64,6 +61,7 @@
       <workItem from="1587512688084" duration="3527000" />
       <workItem from="1587852046391" duration="11217000" />
       <workItem from="1588542878352" duration="5257000" />
+      <workItem from="1588639097895" duration="3086000" />
     </task>
     <servers />
   </component>
