@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cedde98-036a-4615-8d7d-85eddc7c7cd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/Imagenes en HTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/indexcss.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
@@ -15,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -38,6 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,6 +64,7 @@
       <workItem from="1587852046391" duration="11217000" />
       <workItem from="1588542878352" duration="5257000" />
       <workItem from="1588639097895" duration="3086000" />
+      <workItem from="1588808618723" duration="2923000" />
     </task>
     <servers />
   </component>

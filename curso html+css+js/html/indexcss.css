@@ -1,0 +1,13 @@
+/* recordar que las hojas css tienen 3ª prioridad, los estilos en la cabecera tienene 2ª y los escritos en el elemento mismo tienen 1ª*/
+body
+{
+    font-family: "Bodoni MT Black";
+    color: bisque;
+    background-color: coral;
+}
+/* estos son los links */
+a
+{
+    color: black;
+
+}
