@@ -7,9 +7,17 @@
 
 </ul>
 
-<h3> Heroe Borrado</h3>
-<span>{{heroeBorrado}}</span>
-<br/>
+<div *ngIf="heroeBorrado; else noBorrado">
+  <h3> Heroe Borrado</h3>
+  <span>{{heroeBorrado}}</span>
+  <br/>
+</div>
+
+<ng-template #noBorrado>
+  <h3> No ha borrado nada</h3>
+</ng-template>
+
+
 <button (click)="borrar(0)">
  boorrar 1
 </button>
