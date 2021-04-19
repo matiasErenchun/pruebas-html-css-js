@@ -1,5 +1,7 @@
+
 import { Component} from '@angular/core';
 import {Personaje} from '../interfaces/dragonballz.interface';
+import {DragonballzService} from '../services/dragonballz.service';
 
 @Component({
   selector: 'app-main-page',
@@ -8,28 +10,10 @@ import {Personaje} from '../interfaces/dragonballz.interface';
 })
 export class MainPageComponent
 {
-  personajes: Personaje[] =
-    [
-      {
-        nombre: 'goku',
-        poder: 15000
-      },
-      {
-        nombre: 'Vegeta',
-        poder: 7500
-      }
-    ];
   nuevo: Personaje =
     {
       nombre : '',
       poder: 0
     };
-  agregar( ): void
-  {
-    this.personajes.push(this.nuevo);
-    this.nuevo = {
-      nombre: '',
-      poder: 0
-    };
-  }
+  constructor() {}
 }
