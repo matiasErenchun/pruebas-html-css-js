@@ -1,9 +1,17 @@
+
 <div>
   <h1> Componente {{getNombre()}}</h1>
   <label>{{getSaludo()}}</label>
 
+  <form [formGroup]="campos" >
+    <div>
+      <label>Texto</label>
+      <input type="text" formControlName="texto">
+    </div>
+    <button name="guardar" (click)="guardar()">Guardar</button>
+  </form>
+
   <div>
-    <button name="hola" (click)="printValues()">Hola</button>
-    <button name="chao">Chao</button>
+    <button name="mostrar" (click)="printValues()">Mostrar</button>
   </div>
 </div>

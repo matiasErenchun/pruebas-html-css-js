@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { PadreComponent } from './padre/padre.component';
 import { DynamicHostDirective } from './directiva/dynamic-host.directive';
 import { DinamiccComponent } from './dinamicc/dinamicc.component';
+import {ReactiveFormsModule} from '@angular/forms';
 
 
 
@@ -19,7 +20,8 @@ import { DinamiccComponent } from './dinamicc/dinamicc.component';
     PadreComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule
   ]
 })
 export class DinamiccomponentModule { }
