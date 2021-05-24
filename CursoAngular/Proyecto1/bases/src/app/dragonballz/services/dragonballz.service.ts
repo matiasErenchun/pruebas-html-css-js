@@ -13,6 +13,10 @@ export class DragonballzService
       {
         nombre: 'Vegeta',
         poder: 7500
+      },
+      {
+        nombre: 'visho',
+        poder: 100
       }
     ];
   get getPersonajes(): Personaje[]

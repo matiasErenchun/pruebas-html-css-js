@@ -5,17 +5,19 @@ import { AppComponent } from './app.component';
 import {HeroesModule} from './heroes/heroes.module';
 import {ContadoresModule} from './contadors/contadores.module';
 import {DragonballzModule} from './dragonballz/dragonballz.module';
+import {DinamiccomponentModule} from './dinamiccomponent/dinamiccomponent.module';
 
 @NgModule({
   declarations: [
     AppComponent,
   ],
-  imports: [
-    BrowserModule,
-    HeroesModule,
-    ContadoresModule,
-    DragonballzModule
-  ],
+    imports: [
+        BrowserModule,
+        HeroesModule,
+        ContadoresModule,
+        DragonballzModule,
+        DinamiccomponentModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
